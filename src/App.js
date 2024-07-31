@@ -8,7 +8,7 @@ function App() {
 
   const fileInputRef = useRef();
 
-  const url = 'https://i.pinimg.com/originals/16/46/24/1646243661201a0892cc4b1a64fcbacf.jpg';
+  const url = 'https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
 
   useEffect(() => {
     const getImage = async () => {
