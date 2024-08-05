@@ -33,7 +33,9 @@ function App() {
       <img src={url} className='img' />
       <div className='wrapper'>
         <h1>ShareBox</h1>
-        <p>Upload and share your files effortlessly. No account required. Unlimited sharing and instant downloads. Get started now!</p>
+        <p>Upload and share your files effortlessly.</p>
+        <p>No account required. Unlimited sharing and instant downloads.</p>
+        <p>Get started now!</p>
         
         <button onClick={() => onUploadClick()}>Upload</button>
         <input
